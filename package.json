@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test1": "mocha ./src/calculateDistancePoints.test.js -b",
-    "test2": "mocha ./src/calculateStylePoints.test.js -b",
-    "test3": "mocha ./src/calculateTotalPoints.test.js -b",
+    "test1": "mocha ./calculateDistancePoints.test.js -b",
+    "test2": "mocha ./calculateStylePoints.test.js -b",
+    "test3": "mocha ./calculateTotalPoints.test.js -b",
     "test:watch": "onchange \"./*.js\" -- npm test"
   },
   "keywords": [],
