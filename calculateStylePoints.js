@@ -1,5 +1,3 @@
-const Math = require('Math');
-
 const calculateStylePoints = ( styleNotes ) => {
     // sum all notes
     const result = styleNotes.reduce(( sum, current ) => sum + current, 0 );
